@@ -1,0 +1,16 @@
+{
+    "app":{
+        "cfengine":"adobe@9"
+    },
+    "name":"cfengine-acf9",
+    "openbrowser":"true",
+    "force":"true",
+    "web":{
+        "http":{
+            "port":"57009"
+        }
+    },
+    "JVM":{
+        "heapSize":"2048"
+    }
+}

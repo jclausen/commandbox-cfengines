@@ -1,0 +1,18 @@
+{
+    "app":{
+        "cfengine":"adobe@10",
+        "WARPath":"/Users/jonclausen/Sites/ortus/commandbox-engines/docker/ACF10/Engine.war"
+    },
+    "name":"cfengine-acf10",
+    "openbrowser":"true",
+    "force":"true",
+    "web":{
+        "http":{
+            "port":"57010"
+        }
+    },
+    "JVM":{
+        "heapSize":"2048"
+    },
+    "save":true
+}
