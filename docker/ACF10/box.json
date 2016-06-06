@@ -1,0 +1,9 @@
+{
+    "name":"Adobe ColdFusion CF Engine",
+    "version":"10.0.19+298511",
+    "createPackageDirectory":false,
+    "location":"http://downloads.ortussolutions.com/adobe/coldfusion/10.0.0/cf-engine-10.0.19.zip",
+    "slug":"adobe",
+    "shortDescription":"Adobe ColdFusion WAR engine for CommandBox servers.",
+    "type":"cf-engines"
+}
