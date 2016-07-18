@@ -8,6 +8,7 @@ cfengine-acf11:
     - "8011:8080"
   volumes:
     - ./docker/ACF11:/usr/local/tomcat/webapps
+    - ./hotfix/:/usr/local/tomcat/cf-hotfix
 
 cfengine-acf10:  
   # The location of our core docker directory
@@ -19,6 +20,7 @@ cfengine-acf10:
     - "8010:8080"
   volumes:
     - ./docker/ACF10:/usr/local/tomcat/webapps
+    - ./hotfix/:/usr/local/tomcat/cf-hotfix
 
 
 cfengine-acf2016:  
@@ -31,3 +33,4 @@ cfengine-acf2016:
     - "8016:8080"
   volumes:
     - ./docker/ACF2016:/usr/local/tomcat/webapps
+    - ./hotfix/:/usr/local/tomcat/cf-hotfix
