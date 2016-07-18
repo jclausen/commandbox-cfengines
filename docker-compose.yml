@@ -22,7 +22,6 @@ cfengine-acf10:
     - ./docker/ACF10:/usr/local/tomcat/webapps
     - ./hotfix/:/usr/local/tomcat/cf-hotfix
 
-
 cfengine-acf2016:  
   # The location of our core docker directory
   build: ./docker
