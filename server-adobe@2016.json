@@ -1,10 +1,9 @@
 {
     "app":{
         "cfengine":"adobe@2016",
-        "WARPath":"/Users/jonclausen/Sites/ortus/commandbox-engines/docker/ACF2016/engine.war"
+        "WARPath":"/Users/jonclausen/Sites/ortus/commandbox-engines/workbench/ACF2016/engine.war"
     },
-    "save":true,
-    "name":"cfengine-acf2016",
+    "name":"adobe@2016",
     "openbrowser":"true",
     "force":true,
     "web":{
