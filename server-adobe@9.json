@@ -1,6 +1,7 @@
 {
     "app":{
-        "cfengine":"adobe@9"
+        "cfengine":"adobe@9",
+        "WARPath":"./workbench/ACF9/engine.war"
     },
     "name":"adobe@9",
     "openbrowser":"true",

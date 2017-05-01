@@ -1,7 +1,7 @@
 {
     "app":{
         "cfengine":"adobe@10",
-        "WARPath":"/Users/jonclausen/Sites/ortus/commandbox-engines/workbench/ACF10/Engine.war"
+        "WARPath":"./workbench/ACF10/Engine.war"
     },
     "name":"adobe@10",
     "openbrowser":"true",
