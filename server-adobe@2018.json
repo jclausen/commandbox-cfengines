@@ -1,0 +1,17 @@
+{
+    "app":{
+        "cfengine":"adobe@2018",
+        "WARPath":"./workbench/ACF2018/engine.war"
+    },
+    "name":"adobe@2018",
+    "openbrowser":"true",
+    "force":true,
+    "web":{
+        "http":{
+            "port":"57018"
+        }
+    },
+    "JVM":{
+        "heapSize":"2048"
+    }
+}

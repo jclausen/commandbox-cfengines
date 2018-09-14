@@ -33,3 +33,15 @@ cfengine-acf2016:
   volumes:
     - ./workbench/ACF2016:/usr/local/tomcat/webapps
     - ./hotfix/:/usr/local/tomcat/cf-hotfix
+
+cfengine-acf2018:  
+  # The location of our core docker directory
+  build: ./workbench
+  # DC build file for this server
+  dockerfile: Dockerfile_Tomcat8
+  # bind public port to 8081
+  ports:
+    - "8018:8080"
+  volumes:
+    - ./workbench/ACF2018:/usr/local/tomcat/webapps
+    - ./hotfix/:/usr/local/tomcat/cf-hotfix

@@ -2,3 +2,4 @@ previous-versions
 /hotfix
 trayOptions.json
 /workbench/**/*.zip
+/.vscode
